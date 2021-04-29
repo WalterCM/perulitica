@@ -1,0 +1,41 @@
+.PartyNamePicker {
+
+}
+
+.name {
+    position:relative;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.label {
+
+}
+
+.input, .update {
+    border: 0 solid white;
+}
+
+.input {
+    left: 10px;
+    width: 100%;
+}
+
+.update {
+    right: 0;
+
+}
+
+.update:hover,
+.update:active {
+    background: #ffabab;
+    border-color: #ffabab;
+    border-radius: 5px;
+}
+
+.update:focus {
+    outline: none;
+}
